@@ -7,61 +7,22 @@ Research Article: https://medium.com/nextgen-innovations/improving-heart-disease
 HeartKNN is a machine learning-based system designed to classify heart disease risk using K-Nearest Neighbors (KNN) and Linear Regression. By leveraging data-driven techniques, the model provides accurate predictions to aid early detection and prevention of heart disease. The project is built using Python and machine learning libraries such as scikit-learn, offering a scalable and efficient solution for medical data analysis.
 
 Project Highlights
-
-Preprocessing: Data cleaning and feature engineering techniques enhance model robustness.
-
-Models: KNN and Linear Regression are implemented for classification.
-
-Evaluation: The model is assessed using accuracy, precision, recall, and confusion matrix visualization.
-
-Scalability: Works with customizable datasets and parameters for fine-tuning.
+The project focuses on enhancing model robustness through preprocessing, implementing KNN and Linear Regression for classification, and evaluating performance using accuracy, precision, recall, and a confusion matrix. It is scalable and customizable, allowing for fine-tuning with different datasets and parameters.
 
 Preprocessing Pipeline
-
-Feature Scaling: Normalization is applied to ensure data consistency.
-
-Handling Missing Values: Imputation techniques are used for incomplete records.
-
-Feature Selection: Important predictors are selected based on correlation and importance scores.
+The preprocessing stage includes feature scaling with normalization to ensure data consistency. Missing values are handled using imputation techniques, and important features are selected based on correlation and importance scores.
 
 Model Architecture
-
-K-Nearest Neighbors (KNN): A distance-based classification algorithm used for heart disease prediction.
-
-Linear Regression: Applied for trend analysis and understanding contributing factors.
-
-Hyperparameter Tuning: KNN hyperparameters (e.g., number of neighbors) are optimized for performance.
+The project uses K-Nearest Neighbors (KNN) for classification, which is a distance-based algorithm, and Linear Regression for trend analysis to understand contributing factors. KNN hyperparameters, such as the number of neighbors, are fine-tuned to optimize performance.
 
 Training Strategy
-
-Optimizer: Adaptive techniques improve model convergence.
-
-Loss Function: Evaluated using classification metrics.
-
-Cross-Validation: Ensures generalization and prevents overfitting.
+An adaptive optimizer is used to improve model convergence, and the loss function is evaluated using classification metrics. Cross-validation ensures the model generalizes well and prevents overfitting.
 
 Post-Training Evaluation
-
-After training, the model is tested on a separate dataset. Key evaluation metrics include:
-
-Accuracy: Measures overall correctness.
-
-Precision & Recall: Evaluates positive case detection.
-
-Confusion Matrix: Provides insights into classification performance.
+After training, the model is tested on a separate dataset, with key evaluation metrics including accuracy, precision, recall, and the confusion matrix. These metrics provide insights into the model’s classification performance.
 
 Dataset
-
-The dataset comprises health-related attributes such as age, cholesterol levels, blood pressure, and more. It is split into:
-
-Training Set: Used for model learning.
-
-Validation Set: Fine-tunes hyperparameters.
-
-Test Set: Assesses final model performance.
+The dataset includes health-related attributes such as age, cholesterol levels, and blood pressure. It is split into a training set for learning, a validation set for hyperparameter fine-tuning, and a test set for final performance assessment.
 
 Results
-
-Performance: The model achieves high accuracy with well-tuned parameters.
-
-Visualization: Training curves and confusion matrix help analyze effectiveness.
+The model achieves high accuracy after hyperparameter tuning. Visualization tools, such as training curves and the confusion matrix, help analyze the model's effectiveness.
